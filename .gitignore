@@ -10,3 +10,16 @@ venv
 .cdk.staging
 cdk.out
 .DS_Store
+
+# py4web
+databases/
+uploads/
+
+
+# test files
+test_unomi.py
+
+# database files
+apps/cdp/databases/*.db
+apps/cdp/databases/*.log
+apps/cdp/databases/*.table
