@@ -40,7 +40,7 @@ import base64
 import json2html
 from requests.auth import HTTPBasicAuth
 
-unomi_url = "http://3.113.215.104:8181/"
+unomi_url = "http://localhost:8181/"
 username = 'karaf'
 password = 'karaf'
 basic_auth = HTTPBasicAuth(username, password)
